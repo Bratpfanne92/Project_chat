@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Chat mit Kollegen</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <ul>
+          <li><a href="#" id="chat1">Chat 1</a></li>
+          <li><a href="#" id="chat2">Chat 2</a></li>
+          <li><a href="#" id="chat3">Chat 3</a></li>
+        </ul>
+      </nav>
+      <main class="content">
+        <div id="chatContent">
+          <div class="chat-room">
+            <div class="messages" id="chatMessages">
+              <!-- Hier werden die Chat-Nachrichten angezeigt -->
+            </div>
+            <div class="message-input">
+              <input
+                type="text"
+                id="messageInput"
+                placeholder="Nachricht eingeben..."
+              />
+              <button id="sendMessage">Senden</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="../script/index.js"></script>
+  </body>
+</html>
